@@ -1,12 +1,13 @@
-const App=()=> {
+import "./App.css";
+import HeroSection from "./components/Hero";
+import Navigation from "./components/Navigation";
+const App = () => {
+  return (
+    <div>
+      <Navigation />
+      <HeroSection />
+    </div>
+  );
+};
 
-  return <div> 
-    <nav>
-      <div className="logo">
-        <img src=""alt=""></img>
-      </div>
-    </nav>
-  </div>;
-}
-
-export default App
+export default App;
